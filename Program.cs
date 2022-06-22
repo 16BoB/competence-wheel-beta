@@ -1,92 +1,27 @@
 ﻿// Портрет специальности программист
-int programmer_extrovert = 2;
-int programmer_introvert = 3;
-int programmer_аbility_to_work_monotonously = 4;
-int programmer_мentoring = 0;
-int programmer_analytical_data = 4;
-int programmer_empathy = 2;
-int programmer_curiosity = 5; 
-int programmer_oratory = 0;
-int programmer_organizational_ability = 1;
-int programmer_critical_thinking = 3;
-int programmer_multitasking = 3;
-int programmer_creativity = 1;
-int programmer_stress_tolerance = 4;
-int programmer_time_control = 3;
-int programmer_work_with_a_large_amount_of_data = 5;
-int programmer_total_score = 40;
+int programmerTotalScore = 40;
+int[] programmer = {2, 3, 4, 0, 4, 2, 5, 0, 1, 3, 3, 1, 4, 3, 5};
 
 // Портрет специальности тестировщик
-int tester_extrovert = 2;
-int tester_introvert = 2;
-int tester_аbility_to_work_monotonously = 5;
-int tester_мentoring = 0;
-int tester_analytical_data = 3;
-int tester_empathy = 3;
-int tester_curiosity = 4; 
-int tester_oratory = 0;
-int tester_organizational_ability = 1;
-int tester_critical_thinking = 3;
-int tester_multitasking = 3;
-int tester_creativity = 1;
-int tester_stress_tolerance = 2;
-int tester_time_control = 3;
-int tester_work_with_a_large_amount_of_data = 3;
-int tester_total_score = 35;
+int testerTotalScore = 35;
+
+int[] tester = {2, 2, 5, 0, 3, 3, 4, 0, 1, 3, 3, 1, 2, 3, 3};
 
 // Портрет специальности аналитика
-int analytics_extrovert = 3;
-int analytics_introvert = 4;
-int analytics_аbility_to_work_monotonously = 3;
-int analytics_мentoring = 0;
-int analytics_analytical_data = 5;
-int analytics_empathy = 2;
-int analytics_curiosity = 4; 
-int analytics_oratory = 1;
-int analytics_organizational_ability = 2;
-int analytics_critical_thinking = 5;
-int analytics_multitasking = 3;
-int analytics_creativity = 3;
-int analytics_stress_tolerance = 3;
-int analytics_time_control = 2;
-int analytics_work_with_a_large_amount_of_data = 4;
-int analytics_total_score = 44;
+int analyticsTotalScore = 44;
+
+int[] analytics = {3, 4, 3, 0, 5, 2, 4, 1, 2, 5, 3, 3, 3, 2, 4};
 
 // Портрет специальности Проджект-менеджер
-int project_manager_extrovert = 4;
-int project_manager_introvert = 1;
-int project_manager_аbility_to_work_monotonously = 1;
-int project_manager_мentoring = 3;
-int project_manager_analytical_data = 3;
-int project_manager_empathy = 4;
-int project_manager_curiosity = 3; 
-int project_manager_oratory = 4;
-int project_manager_organizational_ability = 5;
-int project_manager_critical_thinking = 3;
-int project_manager_multitasking = 5;
-int project_manager_creativity = 3;
-int project_manager_stress_tolerance = 5;
-int project_manager_time_control = 5;
-int project_manager_work_with_a_large_amount_of_data = 4;
-int project_manager_total_score = 53;
+int projectManagerTotalScore = 53;
+
+int[] projectManager = {4, 1, 1, 3, 3, 4, 3, 4, 5, 3, 5, 3, 5, 5, 4};
+
 
 // Портрет специальности Продакт-менеджер
-int product_manager_extrovert = 3;
-int product_manager_introvert = 2;
-int product_manager_аbility_to_work_monotonously = 3;
-int product_manager_мentoring = 3;
-int product_manager_analytical_data = 3;
-int product_manager_empathy = 4;
-int product_manager_curiosity = 2; 
-int product_manager_oratory = 4;
-int product_manager_organizational_ability = 4;
-int product_manager_critical_thinking = 3;
-int product_manager_multitasking = 5;
-int product_manager_creativity = 2;
-int product_manager_stress_tolerance = 4;
-int product_manager_time_control = 4;
-int product_manager_work_with_a_large_amount_of_data = 3;
-int product_manager_total_score = 49;
+int productManagerTotalScore = 49;
+
+int[] product_manager = {3, 2, 3, 3, 3, 4, 2, 4, 4, 3, 5, 2, 4, 4, 3};
 
 Console.WriteLine("1. Введите свой балл критерия - Экстраверт");
 int extrovert = Convert.ToInt32(Console.ReadLine());
